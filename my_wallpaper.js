@@ -93,3 +93,8 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
  // fill(0);
  // ellipse(76, 87, 6, 12); //pupil
 }
+
+
+//Add Fur lengths
+//Add patterns
+//Border???
