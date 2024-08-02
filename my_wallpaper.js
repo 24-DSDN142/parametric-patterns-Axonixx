@@ -15,17 +15,17 @@ let backGreen = [186, 255, 201]
 let backBlue = [186, 255, 255]
 
 //your parameter variables go here!
-let backColour = backGreen;
-let furColour = silverFur;
+let backColour = backOrange;
+let furColour = orangeFur;
 let eyeColour = eyeGreen;
-let whisker = false;
-let earColour = [102, 78, 85];
+let whisker = true;
+let earColour = [255, 166, 191];
 let pattern = 3;
 
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GLIDE_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(A3);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
@@ -162,28 +162,4 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
    ellipse(0, 0, 7, 9);
    ellipse(-10, -4, 7, 9);
   }
-
- // ellipse(93, 93, 65, 65);
- // rectMode(CENTER);
- // rect(100, 100, 60, 60);
- // triangle(70.1, 130, 50, 105, 71, 90); //mouth
- // fill(238, 172, 186);
- // triangle(50, 105, 55, 101, 54, 110);//nose
- // //ears
- // triangle(85, 62, 90, 25, 100, 65);
- // fill(furColour);
- // triangle(90, 25, 100, 71, 130, 70.1)
- // triangle(130, 70, 95, 150, 150, 120);
- // rect(100, 130, 10, 20);
- // //neck
- // fill(backColour);
- // ellipse(95, 140, 20, 20);
- // //eyes
- // strokeWeight(0);
- // fill(eyeColour);
- // ellipse(78, 87, 11, 15);
- // triangle(73, 84, 77, 94.5, 71, 92); //top, bottom, edge FRONT
- // triangle(80, 80, 85, 83, 81.5, 93); //top, edge, bottom BACK
- // fill(0);
- // ellipse(76, 87, 6, 12); //pupil
 }
